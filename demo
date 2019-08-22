@@ -1,0 +1,7 @@
+- hosts: web
+  remote_user: root
+  tasks:
+     - name: demo
+       copy: 
+         src: try1.html
+         dest: /var/www/html/
